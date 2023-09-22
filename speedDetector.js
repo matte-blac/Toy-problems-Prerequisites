@@ -3,7 +3,7 @@ const readline = require('readline')
 
 //initialize speed and speed limit 
 const calculateDemeritPoints = (speed) =>{
-  const speedLimit = 70
+  const speedLimit = 70 
 
   if (speed < speedLimit){
     return "Ok"
