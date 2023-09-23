@@ -1,7 +1,7 @@
 //import readline to enable input function
 const readline = require('readline')
 
-//create an instance of readline.interface
+//create an instance of readline.interface and configure stdin and stdout
 const prompt = readline.createInterface({
   input: process.stdin,
   output: process.stdout
