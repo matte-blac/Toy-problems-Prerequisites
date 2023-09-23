@@ -28,11 +28,11 @@ const prompt = readline.createInterface({
 prompt.question("Enter the speed of car: ", (answer) =>{
   const speed = (answer)
 
-  if (!isNaN(speed)){
+  if (speed){
     const result = calculateDemeritPoints(speed)
     console.log(result)
   }else{
-    console.log(INVALID)
+    console.log('INVALID')
   }
 prompt.close()
 })
